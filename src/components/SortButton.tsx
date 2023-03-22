@@ -29,6 +29,7 @@ const SortButton = ({ sortTarget }: ISortButtonProps) => {
       _hover={{ background: 'gray.100' }}
       p={0}
       onClick={() => onClickSort(sortTarget)}
+      data-testid={`${sortTarget}-sort`}
     >
       <ArrowUpIcon
         color={
