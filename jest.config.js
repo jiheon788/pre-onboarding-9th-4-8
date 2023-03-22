@@ -8,6 +8,6 @@ module.exports = {
   },
   testEnvironment: "jest-environment-jsdom",
   "setupFilesAfterEnv": [
-    "./src/__tests__/setupTest.ts"
+    "./src/setupTest.ts"
   ]
 };
