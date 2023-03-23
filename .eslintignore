@@ -1,2 +1,5 @@
 /node_modules
 craco.config.js
+jest.config.js
+/public
+/__test__
