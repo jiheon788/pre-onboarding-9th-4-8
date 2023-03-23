@@ -2,20 +2,18 @@
 
 비대면 온라인 환테크 플랫폼을 운영하는 핀테크 스타트업 [스위치원](http://www.switchwon.com/ko/index.html) 기업 과제 입니다.
 
-## 🔗 결과 링크
-
-- [최종 결과물 바로가기](https://pre-onboarding-9th-4-8.netlify.app)
+## [최종 결과물 바로가기](https://pre-onboarding-9th-4-8.netlify.app)
 
 <br/>
 
-## 📝 과제 목적
+## 과제 목적
 
 - 주어진 데이터를 기반으로 주문 내역 관리 어드민 페이지 구현
 - Best Practice 만들어 제출하기
 
 <br/>
 
-## ✅ 과제 진행 방법
+## 과제 진행 방법
 
 [기능 구현 목록](./docs//REQUIREMENTS.md)을 작성 후 아래와 같이 분류하였습니다.
 
@@ -27,7 +25,21 @@
 
 <br/>
 
-## 🌟 Best Practice 선정 및 이유
+## My Part
+### Features
+- [주문 목록 페이지 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/9) - 🏆 Best Practice 선정
+- [필터링, 검색 기능 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/14) - 🏆 Best Practice 선정
+- [테스트 코드 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/20)
+
+### Issue
+
+- [Test Trouble Shooting](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/issues/26#issuecomment-1480684131)
+
+<br/>
+
+## Team History
+
+### Features Best Practice
 
 - **Mar 23, 2023** 　|　[테스트 코드 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/22)
     
@@ -57,13 +69,13 @@
 
 <br/>
 
-## 🐞 이슈 및 버그
+## 이슈 및 버그
 
 - **Mar 23, 2023**  　|　[Trouble Shooting 모음](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/issues/26)
 
 <br/>
 
-## 👨‍💻 팀원 소개
+## 팀원 소개
 
 <table border>
   <tbody>
@@ -132,7 +144,7 @@
 
 <br/>
 
-## 🚀 기능
+## 기능
 
 - 주문 목록 테이블 페이지 (5초 주기로 refetch)
 - 페이지네이션 (한 페이지 당 50건의 주문 출력)
@@ -143,7 +155,7 @@
 
 <br/>
 
-## 📷 Demo
+## Demo
 
 #### 날짜 & 상태 필터링
 ![date-filter (1)](https://user-images.githubusercontent.com/90181028/226713730-f4a9a486-c2ce-4413-b075-9ea1a278dee7.gif)
@@ -153,7 +165,7 @@
 ![뉴검색](https://user-images.githubusercontent.com/90181028/227155292-7ff9c43d-4520-46c1-8f36-9b10f9f37575.gif)
 
 
-## ✨ 기술 스택
+## 기술 스택
 
 - React
 - Typescript
@@ -167,7 +179,7 @@
 
 <br/>
 
-## 🤝 협업 툴
+## 협업 툴
 
 - Discord
 - Notion
@@ -175,7 +187,7 @@
 
 <br/>
 
-## 🗂️ 디렉토리 구조
+## 디렉토리 구조
 
 ```bash
 src
@@ -198,7 +210,7 @@ src
 
 <br/>
 
-## ⚙️ 설치 및 실행 가이드
+## 설치 및 실행 가이드
 
 #### Install
 
