@@ -32,6 +32,7 @@
     "build": "craco build",
     "test": "jest",
     "cover": "jest --coverage",
+    "make-badges": "istanbul-badges-readme",
     "eject": "craco eject",
     "postinstall": "husky install; (git config --get commit.template && echo 'commit message template이 확인되었습니다.') || (git config commit.template .commitTemplate && echo 'commit message template이 .commitTemplate으로 설정되었습니다.')"
   },
