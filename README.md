@@ -1,4 +1,10 @@
 # 원티드 프리온보딩 인턴쉽 4주차 과제
+
+
+| Statements                  | Branches                | Functions                 | Lines             |
+| --------------------------- | ----------------------- | ------------------------- | ----------------- |
+| ![Statements](https://img.shields.io/badge/statements-83.33%25-yellow.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-50%25-red.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-75%25-red.svg?style=flat) |
+
 ### [최종 결과물 바로가기](https://pre-onboarding-9th-4-8.netlify.app)
 
 비대면 온라인 환테크 플랫폼을 운영하는 핀테크 스타트업 [스위치원](http://www.switchwon.com/ko/index.html) 기업 과제 입니다.

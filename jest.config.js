@@ -9,5 +9,6 @@ module.exports = {
   testEnvironment: "jest-environment-jsdom",
   "setupFilesAfterEnv": [
     "./src/setupTest.ts"
-  ]
+  ],
+  "coverageReporters": ["json-summary"]
 };

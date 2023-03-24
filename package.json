@@ -31,8 +31,26 @@
     "start": "craco start",
     "build": "craco build",
     "test": "jest",
+    "cover": "jest --coverage",
     "eject": "craco eject",
     "postinstall": "husky install; (git config --get commit.template && echo 'commit message template이 확인되었습니다.') || (git config commit.template .commitTemplate && echo 'commit message template이 .commitTemplate으로 설정되었습니다.')"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "modulePathIgnorePatterns": [
+      "/node_modules/",
+      "/examples/"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/examples/"
+    ]
   },
   "browserslist": {
     "production": [
@@ -53,6 +71,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
+    "istanbul-badges-readme": "^1.8.5",
     "jest-environment-jsdom": "^29.5.0",
     "msw": "^1.1.0",
     "prettier": "^2.8.4",
