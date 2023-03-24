@@ -36,23 +36,6 @@
     "eject": "craco eject",
     "postinstall": "husky install; (git config --get commit.template && echo 'commit message template이 확인되었습니다.') || (git config commit.template .commitTemplate && echo 'commit message template이 .commitTemplate으로 설정되었습니다.')"
   },
-  "jest": {
-    "coverageReporters": [
-      "json-summary",
-      "lcov"
-    ],
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "modulePathIgnorePatterns": [
-      "/node_modules/",
-      "/examples/"
-    ],
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/examples/"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -10,5 +10,16 @@ module.exports = {
   "setupFilesAfterEnv": [
     "./src/setupTest.ts"
   ],
-  "coverageReporters": ["json-summary"]
+  "coverageReporters": [
+    "json-summary",
+    "lcov"
+  ],
+  "modulePathIgnorePatterns": [
+    "/node_modules/",
+    "/examples/"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/examples/"
+  ]
 };
