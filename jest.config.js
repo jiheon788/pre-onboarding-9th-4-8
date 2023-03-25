@@ -16,10 +16,12 @@ module.exports = {
   ],
   "modulePathIgnorePatterns": [
     "/node_modules/",
-    "/examples/"
   ],
   "coveragePathIgnorePatterns": [
     "/node_modules/",
-    "/examples/"
+    "/src/__test__",
+    "/src/mocks",
+    "/src/constants",
+    "/src/api",
   ]
 };
