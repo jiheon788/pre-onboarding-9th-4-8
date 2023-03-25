@@ -50,11 +50,15 @@
 - Error Boundary를 통한 에러 처리와 lazy, suspense를 사용한 코드 스플리팅
 - 관리자 페이지의 목적성을 고려하여 기초 통계 정보 및 Date Picker의 추가 기능 구현
 
-## Trouble Shooting
+## Issues
 
 #### [테스팅 환경에서의 MSW 문제 해결](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/issues/26#issuecomment-1480684131)
 
 - 테스팅 환경에서 msw 라이브러리의 문제가 있었고 이를 해결함
+
+#### [Test Coverage에 관하여](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/issues/31)
+
+- 향후 테스트코드의 개선 방향성에 관하여 제시함
 
 <br/>
 
