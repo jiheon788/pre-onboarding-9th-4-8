@@ -29,10 +29,6 @@
 
 ## Features
 
-#### [테스트 코드 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/20)
-
-- jest, msw 테스팅 환경 셋업
-- 컴포넌트 테스트와 유틸리티 함수 유닛테스트 케이스 작성하여 Best Practice에 채택
 
 #### [필터링, 검색 기능 구현 PR](https://github.com/Wanted-PreOnboarding-Team-8/pre-onboarding-9th-4-8/pull/14) 
 
